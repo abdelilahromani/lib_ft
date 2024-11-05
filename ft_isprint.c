@@ -6,12 +6,11 @@
 /*   By: aromani <aromani@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/22 13:05:08 by aromani           #+#    #+#             */
-/*   Updated: 2024/11/01 09:36:36 by aromani          ###   ########.fr       */
+/*   Updated: 2024/11/05 22:15:45 by aromani          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <ctype.h>
+#include  "libft.h"
 
 int ft_isprint(int c)
 {

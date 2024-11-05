@@ -6,7 +6,7 @@
 /*   By: aromani <aromani@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/29 15:49:32 by aromani           #+#    #+#             */
-/*   Updated: 2024/11/05 11:08:56 by aromani          ###   ########.fr       */
+/*   Updated: 2024/11/05 22:10:48 by aromani          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,12 +25,12 @@ void    *ft_calloc(size_t count, size_t size)
 }
 
 
-int main()
-{
-    int *ptr;
-    ptr = ft_calloc(1,5); 
-    int j = 0;
-    while(j < 5)
-        printf("%d",ptr[j++]);
-    free(ptr);
-}
+// int main()
+// {
+//     int *ptr;
+//     ptr = ft_calloc(1,5); 
+//     int j = 0;
+//     while(j < 5)
+//         printf("%d",ptr[j++]);
+//     free(ptr);
+// }

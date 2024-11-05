@@ -6,13 +6,11 @@
 /*   By: aromani <aromani@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/22 11:18:55 by aromani           #+#    #+#             */
-/*   Updated: 2024/11/04 15:42:35 by aromani          ###   ########.fr       */
+/*   Updated: 2024/11/05 22:13:20 by aromani          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<unistd.h>
-#include<ctype.h>
-#include<stdio.h>
+#include "libft.h"
 
 int	ft_isalpha(int c)
 {

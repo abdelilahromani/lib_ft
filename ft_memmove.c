@@ -6,21 +6,11 @@
 /*   By: aromani <aromani@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/23 14:21:21 by aromani           #+#    #+#             */
-/*   Updated: 2024/11/04 18:20:17 by aromani          ###   ########.fr       */
+/*   Updated: 2024/11/05 22:24:35 by aromani          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
-size_t	ft_strlen(const char *str)
-{
-	size_t	i = 0;
-	while (str[i])
-	{
-		i++;
-	}
-	return (i);
-}
 
 void	* ft_memmove(void *dst, const void *src, size_t len)
 {

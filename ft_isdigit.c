@@ -6,12 +6,11 @@
 /*   By: aromani <aromani@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/22 11:19:06 by aromani           #+#    #+#             */
-/*   Updated: 2024/11/01 09:36:33 by aromani          ###   ########.fr       */
+/*   Updated: 2024/11/05 22:15:16 by aromani          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<stdio.h>
-#include<ctype.h>
+#include "libft.h"
 
 int ft_isdigit(int c)
 {

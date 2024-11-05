@@ -7523,19 +7523,22 @@
 		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": 1765.8465023211807,
-			"y": 1834.4928973542915,
-			"lastActivityTimestamp": 1730800756340,
+			"x": 2150.02766729591,
+			"y": 4473.439109071828,
+			"lastActivityTimestamp": 1730826590627,
 			"meta": {}
 		},
 		{
 			"followingUserId": null,
 			"opacityForNextShape": 1,
-			"stylesForNextShape": {},
+			"stylesForNextShape": {
+				"tldraw:geo": "rectangle",
+				"tldraw:color": "black"
+			},
 			"brush": null,
 			"scribbles": [],
 			"cursor": {
-				"type": "nwse-resize",
+				"type": "default",
 				"rotation": 0
 			},
 			"isFocusMode": false,
@@ -7545,8 +7548,8 @@
 			"screenBounds": {
 				"x": 0,
 				"y": 0,
-				"w": 1418.333251953125,
-				"h": 689.1666259765625
+				"w": 2085,
+				"h": 999.1666259765625
 			},
 			"insets": [
 				false,
@@ -7577,9 +7580,9 @@
 			"editingShapeId": null,
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:Dvg2puyXArqxywqeFfz4c"
+				"shape:vsx9bPNcqHGIBeYZr0X1s"
 			],
-			"hoveredShapeId": "shape:Dvg2puyXArqxywqeFfz4c",
+			"hoveredShapeId": "shape:A11zWb89MXSRIRZrVkoaA",
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -7589,12 +7592,111 @@
 			"typeName": "instance_page_state"
 		},
 		{
-			"x": 636.5578035574805,
-			"y": -898.8927210264955,
-			"z": 0.45123384932564187,
+			"x": 898.5008971572151,
+			"y": -4017.722983583547,
+			"z": 0.5,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
+		},
+		{
+			"x": -29.21708368065265,
+			"y": 3213.935580660158,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:EyV0nQ5iGAodwebqTCbup",
+			"type": "geo",
+			"props": {
+				"w": 2441.2435302734375,
+				"h": 1881.9401054382324,
+				"geo": "rectangle",
+				"color": "light-green",
+				"labelColor": "black",
+				"fill": "none",
+				"dash": "draw",
+				"size": "m",
+				"font": "draw",
+				"text": "",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"growY": 0,
+				"url": "",
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "b1F0ZA",
+			"typeName": "shape"
+		},
+		{
+			"x": 971.6227600693474,
+			"y": 5144.884320482351,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:IT-F-G7jIH3dfr4UISFpU",
+			"type": "text",
+			"props": {
+				"color": "light-green",
+				"size": "m",
+				"w": 177.56900024414062,
+				"text": "\nfile Descriptor",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1.3618387369704057
+			},
+			"parentId": "page:page",
+			"index": "b1G786",
+			"typeName": "shape"
+		},
+		{
+			"x": 62.7751648545036,
+			"y": 5295.867392763234,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:k6lb7iIZzuo4jsPdn-Mt6",
+			"type": "text",
+			"props": {
+				"color": "light-green",
+				"size": "m",
+				"w": 75.92838287353516,
+				"text": "intro :",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "b1H8Ru",
+			"typeName": "shape"
+		},
+		{
+			"x": 105.12544561622235,
+			"y": 5336.030234560109,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:vsx9bPNcqHGIBeYZr0X1s",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 974.30078125,
+				"text": "A file descriptor is a unique identifier or reference that the operating system \nassigns to a file when it is opened. It allows programs to interact with files, \nsockets, or other input/output (I/O) resources. The file descriptor is used by \nthe operating system to keep track of the file and perform operations on it.",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "b1I9ri",
+			"typeName": "shape"
 		}
 	]
 }
