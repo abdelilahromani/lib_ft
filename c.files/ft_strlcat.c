@@ -6,7 +6,7 @@
 /*   By: aromani <aromani@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/26 08:47:33 by aromani           #+#    #+#             */
-/*   Updated: 2024/11/06 21:41:39 by aromani          ###   ########.fr       */
+/*   Updated: 2024/11/07 11:36:00 by aromani          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,10 +18,10 @@ size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 	size_t	slen;
 	size_t	allen;
 
-	dlen = ft_strlen(dst);
 	slen = ft_strlen(src);
 	if (!dst || !src || dstsize == 0)
 		return (slen);
+	dlen = ft_strlen(dst);
 	if (dstsize <= dlen)
 		return (dstsize + slen);
 	allen = dstsize - dlen - 1;
