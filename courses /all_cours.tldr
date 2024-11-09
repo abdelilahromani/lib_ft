@@ -8127,85 +8127,6 @@
 			"typeName": "shape"
 		},
 		{
-			"id": "pointer:pointer",
-			"typeName": "pointer",
-			"x": 2393.1870555610585,
-			"y": 6652.388847283848,
-			"lastActivityTimestamp": 1730911624801,
-			"meta": {}
-		},
-		{
-			"followingUserId": null,
-			"opacityForNextShape": 1,
-			"stylesForNextShape": {
-				"tldraw:geo": "rectangle",
-				"tldraw:color": "light-green"
-			},
-			"brush": null,
-			"scribbles": [],
-			"cursor": {
-				"type": "nesw-resize",
-				"rotation": 0
-			},
-			"isFocusMode": false,
-			"exportBackground": true,
-			"isDebugMode": false,
-			"isToolLocked": false,
-			"screenBounds": {
-				"x": 0,
-				"y": 0,
-				"w": 1790,
-				"h": 574.1666259765625
-			},
-			"insets": [
-				false,
-				false,
-				true,
-				false
-			],
-			"zoomBrush": null,
-			"isGridMode": false,
-			"isPenMode": false,
-			"chatMessage": "",
-			"isChatting": false,
-			"highlightedUserIds": [],
-			"isFocused": true,
-			"devicePixelRatio": 2.4000000953674316,
-			"isCoarsePointer": false,
-			"isHoveringCanvas": true,
-			"openMenus": [],
-			"isChangingStyle": false,
-			"isReadonly": false,
-			"meta": {},
-			"duplicateProps": null,
-			"id": "instance:instance",
-			"currentPageId": "page:page",
-			"typeName": "instance"
-		},
-		{
-			"editingShapeId": null,
-			"croppingShapeId": null,
-			"selectedShapeIds": [
-				"shape:Iw1pUXP8icmXJqcWrziKv"
-			],
-			"hoveredShapeId": "shape:Iw1pUXP8icmXJqcWrziKv",
-			"erasingShapeIds": [],
-			"hintingShapeIds": [],
-			"focusedGroupId": null,
-			"meta": {},
-			"id": "instance_page_state:page:page",
-			"pageId": "page:page",
-			"typeName": "instance_page_state"
-		},
-		{
-			"x": 951.7601486927128,
-			"y": -6133.383620911824,
-			"z": 0.3766846402755385,
-			"meta": {},
-			"id": "camera:page:page",
-			"typeName": "camera"
-		},
-		{
 			"x": 357.6592878313495,
 			"y": 7992.414537034735,
 			"rotation": 0,
@@ -8869,6 +8790,580 @@
 			},
 			"parentId": "page:page",
 			"index": "b1mAwk",
+			"typeName": "shape"
+		},
+		{
+			"id": "pointer:pointer",
+			"typeName": "pointer",
+			"x": 1850.3809101312777,
+			"y": 9281.6973638525,
+			"lastActivityTimestamp": 1730990812132,
+			"meta": {}
+		},
+		{
+			"followingUserId": null,
+			"opacityForNextShape": 1,
+			"stylesForNextShape": {
+				"tldraw:geo": "rectangle",
+				"tldraw:size": "m",
+				"tldraw:color": "yellow"
+			},
+			"brush": null,
+			"scribbles": [],
+			"cursor": {
+				"type": "default",
+				"rotation": 0
+			},
+			"isFocusMode": false,
+			"exportBackground": true,
+			"isDebugMode": false,
+			"isToolLocked": false,
+			"screenBounds": {
+				"x": 0,
+				"y": 0,
+				"w": 1829.1666259765625,
+				"h": 660.8333129882812
+			},
+			"insets": [
+				false,
+				false,
+				true,
+				false
+			],
+			"zoomBrush": null,
+			"isGridMode": false,
+			"isPenMode": false,
+			"chatMessage": "",
+			"isChatting": false,
+			"highlightedUserIds": [],
+			"isFocused": true,
+			"devicePixelRatio": 2.4000000953674316,
+			"isCoarsePointer": false,
+			"isHoveringCanvas": true,
+			"openMenus": [],
+			"isChangingStyle": false,
+			"isReadonly": false,
+			"meta": {},
+			"duplicateProps": null,
+			"id": "instance:instance",
+			"currentPageId": "page:page",
+			"typeName": "instance"
+		},
+		{
+			"editingShapeId": null,
+			"croppingShapeId": null,
+			"selectedShapeIds": [],
+			"hoveredShapeId": null,
+			"erasingShapeIds": [],
+			"hintingShapeIds": [],
+			"focusedGroupId": null,
+			"meta": {},
+			"id": "instance_page_state:page:page",
+			"pageId": "page:page",
+			"typeName": "instance_page_state"
+		},
+		{
+			"x": 576.544260986759,
+			"y": -8144.901099607488,
+			"z": 0.5048853521767555,
+			"meta": {},
+			"id": "camera:page:page",
+			"typeName": "camera"
+		},
+		{
+			"x": 695.467353074578,
+			"y": 8517.346429423676,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:6nCbPQ80ZbNK8TCwf-hTk",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 20,
+				"text": "",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "b1n3HP",
+			"typeName": "shape"
+		},
+		{
+			"x": 1044.1437906412043,
+			"y": 8519.10171779541,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:2SurzFfyWKRUNaoEA5APD",
+			"type": "text",
+			"props": {
+				"color": "grey",
+				"size": "xl",
+				"w": 259.1510314941406,
+				"text": "linked list :",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "b1o2Ge",
+			"typeName": "shape"
+		},
+		{
+			"x": 87.44979984069005,
+			"y": 8627.792783355488,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:uUeH0VDiNnWl0vVBDn0f2",
+			"type": "text",
+			"props": {
+				"color": "grey",
+				"size": "xl",
+				"w": 16.09765625,
+				"text": "",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "b1pAS3",
+			"typeName": "shape"
+		},
+		{
+			"x": 69.10686744835334,
+			"y": 8625.12798348589,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:tNMw3ZNtJ4ElE7XPRSubD",
+			"type": "text",
+			"props": {
+				"color": "light-green",
+				"size": "m",
+				"w": 75.92838287353516,
+				"text": "intro :",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "b1q3Re",
+			"typeName": "shape"
+		},
+		{
+			"x": 166.05675452632693,
+			"y": 8621.755962246772,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:-6wEMEKfNvPSxnMu9-hBL",
+			"type": "text",
+			"props": {
+				"color": "light-green",
+				"size": "m",
+				"w": 854.6848754882812,
+				"text": "Linked lists are the best and simplest example of a dynamic data \nstructure that uses pointers for its implementation. However, \nunderstanding pointers is crucial to understanding how linked \nlists work, so if you've skipped the pointers tutorial, you should \ngo back and redo it. You must also be familiar with dynamic memory\n allocation and structures.\n Essentially, linked lists function as an array that can grow and \n shrink as needed, from any point in the array.",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "b1r57b",
+			"typeName": "shape"
+		},
+		{
+			"x": 137.3399623246296,
+			"y": 8885.68754079974,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:ablJKk4seTRaSwDTwRJdc",
+			"type": "text",
+			"props": {
+				"color": "yellow",
+				"size": "m",
+				"w": 808.1939697265625,
+				"text": "Linked lists have a few advantages over arrays:\n    # Items can be added or removed from the middle of the list\n    # There is no need to define an initial size\n",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "b1s3iu",
+			"typeName": "shape"
+		},
+		{
+			"x": 1185.6776531613841,
+			"y": 8602.860967809156,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:y2JTwjynurkcyz4jlmus4",
+			"type": "line",
+			"props": {
+				"dash": "draw",
+				"size": "m",
+				"color": "yellow",
+				"spline": "line",
+				"points": {
+					"a1": {
+						"id": "a1",
+						"index": "a1",
+						"x": 0,
+						"y": 0
+					},
+					"a20fK": {
+						"id": "a20fK",
+						"index": "a20fK",
+						"x": 2.4048476709544957,
+						"y": 520.8548811889596
+					}
+				},
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "b1t6Ex",
+			"typeName": "shape"
+		},
+		{
+			"x": 1567.9193232411299,
+			"y": 8600.165955978839,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:tvAL-F4ZCJq4rTPH9Z4vv",
+			"type": "text",
+			"props": {
+				"color": "yellow",
+				"size": "m",
+				"w": 264.28125,
+				"text": "What is a linked list?",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "b1u93v",
+			"typeName": "shape"
+		},
+		{
+			"x": 1231.2867080700285,
+			"y": 8660.926469971962,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:r0oe6C0-VkO9krATp7N_M",
+			"type": "text",
+			"props": {
+				"color": "yellow",
+				"size": "m",
+				"w": 1112.829345703125,
+				"text": "A linked list is a set of dynamically allocated nodes, arranged in such a way that each\n node contains one value and one pointer. The pointer always points to the next member \nof the list. If the pointer is NULL, then it is the last node in the list.",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "b1v6s0",
+			"typeName": "shape"
+		},
+		{
+			"x": 1229.861908660695,
+			"y": 8766.393359661999,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:LGtI4umUx-nJvEkvpLEwx",
+			"type": "text",
+			"props": {
+				"color": "yellow",
+				"size": "m",
+				"w": 1138.6236572265625,
+				"text": "A linked list is held using a local pointer variable which points to the first item of the list. \nIf that pointer is also NULL, then the list is considered to be empty.",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "b1w6uS",
+			"typeName": "shape"
+		},
+		{
+			"x": 1251.2412740382624,
+			"y": 8869.777752574086,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:wcxNkwf0jSUlSByXcSbsh",
+			"type": "geo",
+			"props": {
+				"w": 431.89362051243097,
+				"h": 142.02376576184906,
+				"geo": "rectangle",
+				"color": "yellow",
+				"labelColor": "black",
+				"fill": "none",
+				"dash": "draw",
+				"size": "m",
+				"font": "draw",
+				"text": "",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"growY": 0,
+				"url": "",
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "b1xBTr",
+			"typeName": "shape"
+		},
+		{
+			"x": 1892.7919637184814,
+			"y": 8866.927972421709,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:g9_TfRl81Fq7cjANfqNNq",
+			"type": "geo",
+			"props": {
+				"w": 431.89362051243097,
+				"h": 142.02376576184906,
+				"geo": "rectangle",
+				"color": "yellow",
+				"labelColor": "black",
+				"fill": "none",
+				"dash": "draw",
+				"size": "m",
+				"font": "draw",
+				"text": "",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"growY": 0,
+				"url": "",
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "b1y4yl",
+			"typeName": "shape"
+		},
+		{
+			"x": 1685.1464898477666,
+			"y": 8925.760727736662,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:jJOtbOqFUi1n--fAQuskr",
+			"type": "arrow",
+			"props": {
+				"dash": "draw",
+				"size": "m",
+				"fill": "none",
+				"color": "yellow",
+				"labelColor": "black",
+				"bend": 0,
+				"start": {
+					"x": 0,
+					"y": 0
+				},
+				"end": {
+					"x": 205.26637558667608,
+					"y": 0.1289282682882913
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"text": "",
+				"labelPosition": 0.5,
+				"font": "draw",
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "b1zBKb",
+			"typeName": "shape"
+		},
+		{
+			"x": 1465.6697166904369,
+			"y": 8872.698434207337,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:GNjUl2qqZYcxkQuemPNcP",
+			"type": "line",
+			"props": {
+				"dash": "draw",
+				"size": "m",
+				"color": "yellow",
+				"spline": "line",
+				"points": {
+					"a1": {
+						"id": "a1",
+						"index": "a1",
+						"x": 0,
+						"y": 0
+					},
+					"a25dS": {
+						"id": "a25dS",
+						"index": "a25dS",
+						"x": -1.1669428727559534,
+						"y": 142.06251073136264
+					}
+				},
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "b204lL",
+			"typeName": "shape"
+		},
+		{
+			"x": 2099.6191389974956,
+			"y": 8869.416656711564,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:FRA-rvBKZH1RYOOucNsme",
+			"type": "line",
+			"props": {
+				"dash": "draw",
+				"size": "m",
+				"color": "yellow",
+				"spline": "line",
+				"points": {
+					"a1": {
+						"id": "a1",
+						"index": "a1",
+						"x": 0,
+						"y": 0
+					},
+					"a25dS": {
+						"id": "a25dS",
+						"index": "a25dS",
+						"x": -2.6498899586445077,
+						"y": 139.05799247921277
+					}
+				},
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "b215wN",
+			"typeName": "shape"
+		},
+		{
+			"x": 1323.6911030225451,
+			"y": 8931.486037428333,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:-XTWwKHOxqXwPq99t-DsF",
+			"type": "text",
+			"props": {
+				"color": "yellow",
+				"size": "m",
+				"w": 59.70442581176758,
+				"text": "data",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "b224Rl",
+			"typeName": "shape"
+		},
+		{
+			"x": 1526.1593785643854,
+			"y": 8930.647852573029,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:Lp6GS041Buy1xMy7cNbhN",
+			"type": "text",
+			"props": {
+				"color": "yellow",
+				"size": "m",
+				"w": 56.826820373535156,
+				"text": "next",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "b233mM",
+			"typeName": "shape"
+		},
+		{
+			"x": 1965.3191617526504,
+			"y": 8925.760727736662,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:hU-60aA08nbyepZwM_fPY",
+			"type": "text",
+			"props": {
+				"color": "yellow",
+				"size": "m",
+				"w": 59.70442581176758,
+				"text": "data",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "b2416A",
+			"typeName": "shape"
+		},
+		{
+			"x": 2169.9731129538113,
+			"y": 8923.297853278293,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:3tB9P9Q8BbuwUXDY5SM5l",
+			"type": "text",
+			"props": {
+				"color": "yellow",
+				"size": "m",
+				"w": 56.826820373535156,
+				"text": "next",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "b25AmR",
 			"typeName": "shape"
 		}
 	]

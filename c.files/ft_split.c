@@ -6,12 +6,11 @@
 /*   By: aromani <aromani@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/02 10:48:32 by aromani           #+#    #+#             */
-/*   Updated: 2024/11/06 22:40:14 by aromani          ###   ########.fr       */
+/*   Updated: 2024/11/08 21:14:49 by aromani          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
 #include <stdlib.h>
 
 size_t	count_word(char const *s, char c)

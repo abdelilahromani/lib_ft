@@ -6,7 +6,7 @@
 /*   By: aromani <aromani@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/01 11:29:43 by aromani           #+#    #+#             */
-/*   Updated: 2024/11/06 21:48:42 by aromani          ###   ########.fr       */
+/*   Updated: 2024/11/07 22:08:53 by aromani          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,7 @@ char	*ft_strtrim(char const *s1, char const *set)
 	size_t	end;
 	char	*str;
 
-	if (!s1 && !set)
+	if (!s1 || !set)
 		return (NULL);
 	if (s1[0] == '\0')
 		return (ft_strdup(""));
@@ -53,7 +53,7 @@ char	*ft_strtrim(char const *s1, char const *set)
 
 // int main()
 // {
-//     char *str = "        ";
+//     //char *str = "        ";
 
-//     printf("%s", ft_strtrim(str, " "));
+//     printf("%s", ft_strtrim(NULL, " "));
 // }
