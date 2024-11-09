@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_lstlast.c                                       :+:      :+:    :+:   */
+/*   ft_lstlast_bonus.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: aromani <aromani@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/07 19:19:14 by aromani           #+#    #+#             */
-/*   Updated: 2024/11/08 17:01:15 by aromani          ###   ########.fr       */
+/*   Updated: 2024/11/09 22:34:16 by aromani          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 t_list	*ft_lstlast(t_list *lst)
 {
-	int		i;
-	int		size;
+	int	i;
+	int	size;
 
 	size = ft_lstsize(lst);
 	i = 0;
@@ -34,7 +34,6 @@ t_list	*ft_lstlast(t_list *lst)
 // int main(void)
 // {
 // 	t_list	*p;
-
 // 	p = NULL;
 // 	ft_lstadd_front(&p,ft_lstnew("ihfif"));
 // 	ft_lstadd_front(&p,ft_lstnew("4"));

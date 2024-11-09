@@ -6,13 +6,13 @@
 /*   By: aromani <aromani@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/02 17:18:04 by aromani           #+#    #+#             */
-/*   Updated: 2024/11/06 21:26:04 by aromani          ###   ########.fr       */
+/*   Updated: 2024/11/09 21:31:20 by aromani          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	signcheck(int n)
+static int	signcheck(int n)
 {
 	if (n < 0)
 		return (1);

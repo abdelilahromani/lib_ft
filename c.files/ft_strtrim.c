@@ -6,13 +6,13 @@
 /*   By: aromani <aromani@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/01 11:29:43 by aromani           #+#    #+#             */
-/*   Updated: 2024/11/07 22:08:53 by aromani          ###   ########.fr       */
+/*   Updated: 2024/11/09 21:33:47 by aromani          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t	fcheck(char const c, char const *set)
+static size_t	fcheck(char const c, char const *set)
 {
 	size_t	i;
 
@@ -26,7 +26,7 @@ size_t	fcheck(char const c, char const *set)
 	return (0);
 }
 
-char	*ft_strtrim(char const *s1, char const *set)
+static char	*ft_strtrim(char const *s1, char const *set)
 {
 	size_t	start;
 	size_t	end;

@@ -6,27 +6,25 @@
 /*   By: aromani <aromani@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/09 12:28:15 by aromani           #+#    #+#             */
-/*   Updated: 2024/11/09 17:20:55 by aromani          ###   ########.fr       */
+/*   Updated: 2024/11/09 22:33:30 by aromani          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void    ft_lstdelone(t_list *lst, void (*del)(void*))
+void	ft_lstdelone(t_list *lst, void (*del)(void*))
 {
-    del(lst->content);
-    free(lst);
+	del(lst->content);
+	free(lst);
 }
 
-void frrr(void *s)
-{
-    free(s);
-}
-
+// void frrr(void *s)
+// {
+//     free(s);
+// }
 // int main()
 // {
 //     t_list  *node;
-
 //     node = NULL;
 //     //ft_lstadd_front(&node,ft_lstnew(ft_strdup("306")));
 //     ft_lstadd_front(&node,ft_lstnew(ft_strdup("55")));
@@ -39,5 +37,3 @@ void frrr(void *s)
 //         node = node->next;
 //     }
 // }
-
-

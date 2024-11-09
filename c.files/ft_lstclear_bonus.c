@@ -6,13 +6,13 @@
 /*   By: aromani <aromani@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/09 12:52:58 by aromani           #+#    #+#             */
-/*   Updated: 2024/11/09 17:04:07 by aromani          ###   ########.fr       */
+/*   Updated: 2024/11/09 22:32:41 by aromani          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void ft_lstclear(t_list **lst, void (*del)(void *))
+void	ft_lstclear(t_list **lst, void (*del)(void *))
 {
 	t_list	*node;
 	t_list	*tmp;
@@ -31,17 +31,13 @@ void ft_lstclear(t_list **lst, void (*del)(void *))
 // {
 // 	free(s);
 // }
-
 // int main()
 // {
 // 	t_list	*node;
-
 // 	node = NULL;
 // 	ft_lstadd_front(&node,ft_lstnew("10"));
 // 	ft_lstadd_front(&node,ft_lstnew("10"));
 // 	//ft_lstclear(&node,&test);
-
-
 // 	while (node != NULL)
 // 	{
 // 		printf("before   %s",node->content);

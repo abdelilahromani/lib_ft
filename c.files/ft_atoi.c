@@ -6,13 +6,13 @@
 /*   By: aromani <aromani@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/26 12:20:03 by aromani           #+#    #+#             */
-/*   Updated: 2024/11/08 17:34:25 by aromani          ###   ########.fr       */
+/*   Updated: 2024/11/09 21:30:15 by aromani          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	checker(unsigned long n, int sig)
+static int	checker(unsigned long n, int sig)
 {
 	if (n >= 9223372036854775807 && sig == 1)
 		return (-1);

@@ -6,14 +6,14 @@
 /*   By: aromani <aromani@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/02 10:48:32 by aromani           #+#    #+#             */
-/*   Updated: 2024/11/08 21:14:49 by aromani          ###   ########.fr       */
+/*   Updated: 2024/11/09 21:32:54 by aromani          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 #include <stdlib.h>
 
-size_t	count_word(char const *s, char c)
+static size_t	count_word(char const *s, char c)
 {
 	size_t	i;
 	size_t	count;
@@ -31,7 +31,7 @@ size_t	count_word(char const *s, char c)
 	return (count);
 }
 
-size_t	copystr(char *dest, const char *src, size_t index, char c)
+static size_t	copystr(char *dest, const char *src, size_t index, char c)
 {
 	size_t	i;
 
@@ -59,7 +59,7 @@ static void	ft_free(char **p, size_t index)
 	free(p);
 }
 
-char	**filler(char **ptr, const char *s, char c, size_t count)
+static char	**filler(char **ptr, const char *s, char c, size_t count)
 {
 	size_t	i;
 	size_t	index;
