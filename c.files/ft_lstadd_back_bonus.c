@@ -6,7 +6,7 @@
 /*   By: aromani <aromani@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/07 22:32:50 by aromani           #+#    #+#             */
-/*   Updated: 2024/11/09 22:31:50 by aromani          ###   ########.fr       */
+/*   Updated: 2024/11/11 13:57:22 by aromani          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,8 @@ void	ft_lstadd_back(t_list **lst, t_list *new)
 {
 	t_list	*node;
 
+	if (!lst || !new)
+		return ;
 	node = *lst;
 	while (node && node->next)
 		node = node->next;

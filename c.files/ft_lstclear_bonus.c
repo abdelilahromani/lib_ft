@@ -6,7 +6,7 @@
 /*   By: aromani <aromani@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/09 12:52:58 by aromani           #+#    #+#             */
-/*   Updated: 2024/11/09 22:32:41 by aromani          ###   ########.fr       */
+/*   Updated: 2024/11/11 18:32:12 by aromani          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,9 @@ void	ft_lstclear(t_list **lst, void (*del)(void *))
 	t_list	*node;
 	t_list	*tmp;
 
+	if (!lst || !del)
+		return ;
+	node = *lst;
 	while (node != NULL)
 	{
 		tmp = node;

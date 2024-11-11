@@ -6,7 +6,7 @@
 /*   By: aromani <aromani@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/09 13:00:52 by aromani           #+#    #+#             */
-/*   Updated: 2024/11/09 22:33:53 by aromani          ###   ########.fr       */
+/*   Updated: 2024/11/11 14:06:52 by aromani          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,8 @@
 
 void	ft_lstiter(t_list *lst, void (*f)(void *))
 {
+	if (!lst)
+		return ;
 	while (lst != NULL)
 	{
 		(f)(lst->content);

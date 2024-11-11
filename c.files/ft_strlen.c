@@ -6,7 +6,7 @@
 /*   By: aromani <aromani@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/22 14:10:44 by aromani           #+#    #+#             */
-/*   Updated: 2024/11/06 21:43:00 by aromani          ###   ########.fr       */
+/*   Updated: 2024/11/11 17:45:40 by aromani          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,10 +25,10 @@ size_t	ft_strlen(const char *s)
 	}
 	return (i);
 }
-
-/*int main()
-{
-	char *p = "";
-	printf("%zu",ft_strlen(p));
-	printf("%zu",strlen(p));
-}*/
+// #include <string.h>
+// int main()
+// {
+// 	char *p = "";
+// 	//printf("%zu \n",ft_strlen(NULL));
+// 	printf("%zu",strlen(NULL));
+// }

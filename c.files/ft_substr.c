@@ -6,7 +6,7 @@
 /*   By: aromani <aromani@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/01 09:44:18 by aromani           #+#    #+#             */
-/*   Updated: 2024/11/06 21:49:25 by aromani          ###   ########.fr       */
+/*   Updated: 2024/11/11 16:00:36 by aromani          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,10 +36,10 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	return (str);
 }
 
-// int main()
-// {
-//     const char *s1 = "hi thre im using";
-//     char *res = ft_substr(s1,16,1);
+int main()
+{
+    const char *s1 = "hi thre im using";
+    char *res = ft_substr(s1,1,8);
 
-//     printf("%s",res);
-// }
+    printf("%s",res);
+}

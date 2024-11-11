@@ -1,3 +1,15 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    Makefile                                           :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: aromani <aromani@student.42.fr>            +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2024/11/10 22:18:35 by aromani           #+#    #+#              #
+#    Updated: 2024/11/11 18:26:45 by aromani          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
 NAME = libft.a
 
 CC = cc
@@ -14,18 +26,29 @@ SRCF = ft_atoi.c ft_calloc.c ft_isalpha.c ft_isdigit.c ft_itoa.c ft_memcmp.c \
 	ft_strlcpy.c ft_strncmp.c ft_strrchr.c ft_substr.c ft_toupper.c ft_memset.c ft_putendl_fd.c \
 	ft_memmove.c ft_split.c ft_strdup.c ft_strchr.c ft_strjoin.c ft_strmapi.c ft_striteri.c ft_putnbr_fd.c
 
+BSRCF = ft_lstlast_bonus.c ft_lstmap_bonus.c ft_lstnew_bonus.c ft_lstsize_bonus.c ft_lstadd_back_bonus.c ft_lstadd_front_bonus.c \
+	ft_lstclear_bonus.c ft_lstdelone_bonus.c ft_lstiter_bonus.c
+
 OBJF = ${SRCF:.c=.o}
+BOBJ = $(BSRCF:.c=.o)
 
-%.o : %.c ${HF}
-	$(CC) ${CFLAGS} -c $< -o $@
-	${LCC} ${NAME} $@
+all : $(NAME)
 
-all: $(NAME)
+$(NAME) : $(OBJF)
+	$(LCC) $(NAME) $(OBJF)
 
-$(NAME): ${OBJF}
+bonus : $(BOBJ)
+	$(LCC) $(NAME) $(BOBJ)
 
-clean:
-	rm -f *.o
-fclean: clean
+%.o : %.c $(HF)
+	$(CC) $(CFLAGS) -c $< -o $@
+	
+clean :
+	rm -f *.o 
+
+fclean : clean 
 	rm -f $(NAME)
-re: fclean all 
+
+re: fclean all
+
+.PHONY: clean

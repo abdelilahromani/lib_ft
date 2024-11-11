@@ -6,7 +6,7 @@
 /*   By: aromani <aromani@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/26 15:01:59 by aromani           #+#    #+#             */
-/*   Updated: 2024/11/06 21:27:17 by aromani          ###   ########.fr       */
+/*   Updated: 2024/11/11 15:37:12 by aromani          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,11 +28,10 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	return (NULL);
 }
 
-// int main()
-// {
-//     char str[] = "abd1lla";
-//     //char to_find = "1";
+int main()
+{
+	int a = 1337;
 
-//     printf("%s \n",memchr(str, '1', 6));
-//     printf("%s",ft_memchr(str, '1', 6));
-// }
+	char *s = (char *)ft_memchr((unsigned char *)&a,5,4);
+	printf("%d",*s);
+}
