@@ -6,7 +6,7 @@
 /*   By: aromani <aromani@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/26 08:47:49 by aromani           #+#    #+#             */
-/*   Updated: 2024/11/09 21:35:00 by aromani          ###   ########.fr       */
+/*   Updated: 2024/11/12 22:46:03 by aromani          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,15 +30,3 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 	}
 	return (srcl);
 }
-
-// int main()
-// {   
-//     char dst[30] = "Helloo0000000";
-//     char src[4] = "Word";
-//     size_t i = strlcpy(dst,src,4);
-//     printf("string :   %s   ||  the len  :   %zu  \n",dst,i);
-// 	char dst1[30] = "Helloo0000000";
-//     char src1[4] = "Word";
-// 	size_t i1 = ft_strlcpy(dst1,src1,4);
-//     printf("string :   %s   ||  the len  :   %zu  \n",dst1,i1);
-//}

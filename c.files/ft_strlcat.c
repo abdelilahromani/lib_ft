@@ -6,7 +6,7 @@
 /*   By: aromani <aromani@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/26 08:47:33 by aromani           #+#    #+#             */
-/*   Updated: 2024/11/11 15:57:38 by aromani          ###   ########.fr       */
+/*   Updated: 2024/11/12 22:45:58 by aromani          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,9 +19,11 @@ size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 	size_t	allen;
 
 	slen = ft_strlen(src);
-	if (!dst || !src || dstsize == 0)
+	if (dstsize == 0)
 		return (slen);
 	dlen = ft_strlen(dst);
+	if (!dst || !src)
+		return (slen);
 	if (dstsize <= dlen)
 		return (dstsize + slen);
 	allen = dstsize - dlen - 1;
@@ -34,20 +36,3 @@ size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 	}
 	return (slen + dlen);
 }
-
-// #include <string.h>
-// int main()
-// {   
-//     char dst[30] = "Hello";
-//     char src[4] = "Word";
-
-//     size_t i = ft_strlcat(dst,src,7);
-//     printf("string :   %s   ||  the len  :   %zu \n",dst,i);
-
-//     char dst1[30] = "Hello";
-//     char src1[4] = "Word";
-
-//     size_t j = strlcat(dst1,src1,7);
-//     printf("string :   %s   ||  the len  :   %zu",dst1,j);
-
-// }

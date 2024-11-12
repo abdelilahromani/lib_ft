@@ -6,7 +6,7 @@
 /*   By: aromani <aromani@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/22 12:58:08 by aromani           #+#    #+#             */
-/*   Updated: 2024/11/06 21:17:32 by aromani          ###   ########.fr       */
+/*   Updated: 2024/11/12 22:43:44 by aromani          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,12 +16,6 @@ int	ft_isascii(int c)
 {
 	if (c >= 0 && c <= 127)
 		return (1);
-	else
-		return (0);
+	return (0);
 }
 
-// int main()
-// {
-// 	printf("%d \n",isascii(' '));
-// 	printf("%d",isascii(' '));
-// }

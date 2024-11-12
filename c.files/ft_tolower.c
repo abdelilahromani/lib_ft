@@ -6,7 +6,7 @@
 /*   By: aromani <aromani@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/22 11:19:20 by aromani           #+#    #+#             */
-/*   Updated: 2024/11/06 21:49:51 by aromani          ###   ########.fr       */
+/*   Updated: 2024/11/12 22:46:46 by aromani          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,11 +16,5 @@ int	ft_tolower(int c)
 {
 	if (c >= 'A' && c <= 'Z')
 		return (c + 32);
-	else
-		return (c);
+	return (c);
 }
-// int main()
-// {
-// 	printf("%d",ft_tolower('A'));
-// 	printf("%d",tolower('A'));
-// }

@@ -6,7 +6,7 @@
 /*   By: aromani <aromani@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/01 10:26:17 by aromani           #+#    #+#             */
-/*   Updated: 2024/11/06 21:08:52 by aromani          ###   ########.fr       */
+/*   Updated: 2024/11/12 22:45:53 by aromani          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,10 @@ char	*ft_strjoin(char const *s1, char const *s2)
 
 	if (!s1 && !s2)
 		return (ft_strdup(""));
+	if (!s1)
+		return ((char *)s2);
+	if (!s2)
+		return ((char *)s1);
 	s1len = ft_strlen(s1);
 	s2len = ft_strlen(s2);
 	str = (char *)malloc(s1len + s2len + 1);
@@ -30,11 +34,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	str[s1len + s2len] = '\0';
 	return (str);
 }
-
-// int main()
-// {
-//     const char *s1;
-//     const char *s2 = "nuujk";
-
-//     printf("%s",ft_strjoin(s1,s2));
-// }

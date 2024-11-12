@@ -6,7 +6,7 @@
 /*   By: aromani <aromani@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/01 11:29:43 by aromani           #+#    #+#             */
-/*   Updated: 2024/11/10 14:56:47 by aromani          ###   ########.fr       */
+/*   Updated: 2024/11/12 22:46:38 by aromani          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,10 +50,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 	ft_strlcpy(str, s1 + start, end - start + 1);
 	return (str);
 }
-
-// int main()
-// {
-//     //char *str = "        ";
-
-//     printf("%s", ft_strtrim(NULL, " "));
-// }

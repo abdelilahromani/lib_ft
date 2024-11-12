@@ -6,7 +6,7 @@
 /*   By: aromani <aromani@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/07 19:19:14 by aromani           #+#    #+#             */
-/*   Updated: 2024/11/11 14:24:47 by aromani          ###   ########.fr       */
+/*   Updated: 2024/11/12 22:44:37 by aromani          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,26 +21,9 @@ t_list	*ft_lstlast(t_list *lst)
 		return (NULL);
 	size = ft_lstsize(lst);
 	i = 0;
-	while (lst != NULL)
+	while (lst != NULL && lst->next)
 	{
-		if (i == size - 1)
-		{
-			return (lst->content);
-		}
-		i++;
 		lst = lst->next;
 	}
-	return (0);
+	return (lst);
 }
-
-// int main(void)
-// {
-// 	t_list	*p;
-// 	p = NULL;
-// 	ft_lstadd_front(&p,ft_lstnew("ihfif"));
-// 	ft_lstadd_front(&p,ft_lstnew("4"));
-// 	ft_lstadd_front(&p,ft_lstnew("3"));
-// 	ft_lstadd_front(&p,ft_lstnew("2"));
-// 	ft_lstadd_front(&p,ft_lstnew("1"));
-// 	printf("%s",(char *)ft_lstlast(p));
-// }

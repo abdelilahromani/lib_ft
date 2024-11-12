@@ -6,7 +6,7 @@
 /*   By: aromani <aromani@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/26 10:02:34 by aromani           #+#    #+#             */
-/*   Updated: 2024/11/11 15:59:06 by aromani          ###   ########.fr       */
+/*   Updated: 2024/11/12 22:45:42 by aromani          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,10 +30,3 @@ char	*ft_strchr(const char *s, int c)
 		return ((char *)p + i);
 	return (NULL);
 }
-
-// int main()
-// {
-//     char s[20] = "0000bb";
-//     printf("%s \n",ft_strchr(s,'a'));
-//     printf("%s",strrchr(s,'a'));
-// }

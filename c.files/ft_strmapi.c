@@ -6,7 +6,7 @@
 /*   By: aromani <aromani@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/05 11:24:18 by aromani           #+#    #+#             */
-/*   Updated: 2024/11/06 21:44:04 by aromani          ###   ########.fr       */
+/*   Updated: 2024/11/12 22:46:20 by aromani          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,16 +31,3 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	res[i] = '\0';
 	return (res);
 }
-
-// char test(unsigned int i,char p)
-// {
-//     p = 'a';
-//     return (p);
-// }
-// int main()
-// {
-//     char (*ptr)(unsigned int i,char c);
-//     ptr = &test;
-//     char *ss = ft_strmapi("hi there",test);
-//     printf("%s",ss);
-// }

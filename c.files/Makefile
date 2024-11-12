@@ -1,15 +1,3 @@
-# **************************************************************************** #
-#                                                                              #
-#                                                         :::      ::::::::    #
-#    Makefile                                           :+:      :+:    :+:    #
-#                                                     +:+ +:+         +:+      #
-#    By: aromani <aromani@student.42.fr>            +#+  +:+       +#+         #
-#                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2024/11/10 22:18:35 by aromani           #+#    #+#              #
-#    Updated: 2024/11/11 18:26:45 by aromani          ###   ########.fr        #
-#                                                                              #
-# **************************************************************************** #
-
 NAME = libft.a
 
 CC = cc
@@ -32,6 +20,7 @@ BSRCF = ft_lstlast_bonus.c ft_lstmap_bonus.c ft_lstnew_bonus.c ft_lstsize_bonus.
 OBJF = ${SRCF:.c=.o}
 BOBJ = $(BSRCF:.c=.o)
 
+
 all : $(NAME)
 
 $(NAME) : $(OBJF)
@@ -50,5 +39,3 @@ fclean : clean
 	rm -f $(NAME)
 
 re: fclean all
-
-.PHONY: clean

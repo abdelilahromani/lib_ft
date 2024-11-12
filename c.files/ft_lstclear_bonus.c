@@ -6,7 +6,7 @@
 /*   By: aromani <aromani@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/09 12:52:58 by aromani           #+#    #+#             */
-/*   Updated: 2024/11/11 18:32:12 by aromani          ###   ########.fr       */
+/*   Updated: 2024/11/12 22:44:14 by aromani          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,33 +17,15 @@ void	ft_lstclear(t_list **lst, void (*del)(void *))
 	t_list	*node;
 	t_list	*tmp;
 
-	if (!lst || !del)
+	if (!lst || !(*lst) || !del)
 		return ;
 	node = *lst;
 	while (node != NULL)
 	{
 		tmp = node;
+		node = node->next;
 		del(tmp->content);
 		free(tmp);
-		node = node->next;
 	}
 	*lst = NULL;
 }
-
-// void test(void *s)
-// {
-// 	free(s);
-// }
-// int main()
-// {
-// 	t_list	*node;
-// 	node = NULL;
-// 	ft_lstadd_front(&node,ft_lstnew("10"));
-// 	ft_lstadd_front(&node,ft_lstnew("10"));
-// 	//ft_lstclear(&node,&test);
-// 	while (node != NULL)
-// 	{
-// 		printf("before   %s",node->content);
-// 		node = node->next;
-// 	}
-// }

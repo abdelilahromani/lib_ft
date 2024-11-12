@@ -6,7 +6,7 @@
 /*   By: aromani <aromani@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/09 15:49:55 by aromani           #+#    #+#             */
-/*   Updated: 2024/11/11 18:28:38 by aromani          ###   ########.fr       */
+/*   Updated: 2024/11/12 22:44:45 by aromani          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,51 +16,23 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 {
 	t_list	*l;
 	t_list	*node;
+	t_list *tmp;
 
-	if (!lst || !del)
+	if (!lst || !del || !f)
 		return (NULL);
 	l = NULL;
-	while (lst)
+	tmp = lst;
+	while (tmp)
 	{
-		node = ft_lstnew (f(lst->content));
+		node = ft_lstnew (NULL);
 		if (!node)
 		{
 			ft_lstclear(&l, del);
 			return (NULL);
 		}
+		node->content = f(tmp->content);
 		ft_lstadd_back (&l, node);
-		lst = lst->next;
+		tmp = tmp->next;
 	}
 	return (l);
 }
-
-// void test1(void *s)
-// {
-// 	free(s);
-// }
-// void *test2(void *s)
-// {
-// 	char *str = (char *)s;
-// 	str[0] = '1';
-// 	str[1] = '3';
-// 	str[2] = '3';
-// 	str[3] = '7';
-// 	return((void *)str);
-// }
-// int main()
-// {
-// 	t_list	*node;
-// 	t_list *newlist;
-// 	node = NULL;
-// 	ft_lstadd_front(&node,ft_lstnew(ft_strdup("10")));
-// 	ft_lstadd_front(&node,ft_lstnew(ft_strdup("20")));
-// 	ft_lstadd_front(&node,ft_lstnew(ft_strdup("30")));
-// 	ft_lstadd_front(&node,ft_lstnew(ft_strdup("40")));
-// 	ft_lstadd_front(&node,ft_lstnew(ft_strdup("50")));
-// 	newlist = ft_lstmap(node,&test2,&test1);
-// 	while (newlist != NULL)
-// 	{
-// 		printf("%s \n",(char *)newlist->content);
-// 		newlist = newlist->next;
-// 	}
-// }

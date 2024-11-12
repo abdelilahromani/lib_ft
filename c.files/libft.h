@@ -6,7 +6,7 @@
 /*   By: aromani <aromani@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/06 21:55:48 by aromani           #+#    #+#             */
-/*   Updated: 2024/11/09 22:36:59 by aromani          ###   ########.fr       */
+/*   Updated: 2024/11/12 22:46:59 by aromani          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,7 @@
 # define LIBFT_H
 
 # include <unistd.h>
-# include <stdio.h>
 # include <stdlib.h>
-# include <stddef.h>
 
 typedef struct s_list
 {

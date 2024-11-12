@@ -6,26 +6,28 @@
 /*   By: aromani <aromani@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/26 12:20:03 by aromani           #+#    #+#             */
-/*   Updated: 2024/11/11 14:10:19 by aromani          ###   ########.fr       */
+/*   Updated: 2024/11/12 22:51:58 by aromani          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static int	checker(unsigned long n, int sig)
+static int	checker(long n, int sig, char c)
 {
-	if (n >= 9223372036854775807 && sig == 1)
+	if ((n > 922337203685477580
+		||(n == 922337203685477580 && c > 7)) && sig == 1)
 		return (-1);
-	if (n >= 9223372036854775807 && sig == -1)
-		return (1);
-	return (0);
+	if ((n > 922337203685477580
+		|| (n == 922337203685477580 && c > 7)) && sig == -1)
+		return (0);
+	return (1);
 }
 
 int	ft_atoi(const char *str)
 {
-	int				i;
-	int				sig;
-	unsigned long	num;
+	int		i;
+	int		sig;
+	long	num;
 
 	i = 0;
 	sig = 1;
@@ -42,15 +44,8 @@ int	ft_atoi(const char *str)
 	{
 		num = (num * 10) + str[i] - 48;
 		i++;
-		if (checker(num, sig) != 0)
-			return (checker(num, sig));
+		if (checker(num, sig,str[i]) != 1)
+			return (checker(num, sig, str[i]));
 	}
 	return ((int)(num * sig));
 }
-
-// int main()
-// {
-//     //char str[50] = "9223372036854775807";
-//     printf("[atoi :%d] \n",atoi("9223372036854775807"));
-//     printf("[ft_atoi :%d] \n",ft_atoi("9223372036854775807"));
-// }

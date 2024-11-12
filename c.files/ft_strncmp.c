@@ -6,7 +6,7 @@
 /*   By: aromani <aromani@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/26 12:00:32 by aromani           #+#    #+#             */
-/*   Updated: 2024/11/06 21:45:18 by aromani          ###   ########.fr       */
+/*   Updated: 2024/11/12 22:46:23 by aromani          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,11 +31,3 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 	}
 	return (0);
 }
-
-// int main(void)
-// {
-//     char word[10];
-//     char word1[30];
-//     printf("%d\n", ft_strncmp(word, word1, 5));
-//     printf("%d\n", strncmp(word, word1, 5));
-// }

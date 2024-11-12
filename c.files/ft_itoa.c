@@ -6,7 +6,7 @@
 /*   By: aromani <aromani@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/02 17:18:04 by aromani           #+#    #+#             */
-/*   Updated: 2024/11/09 21:31:20 by aromani          ###   ########.fr       */
+/*   Updated: 2024/11/12 22:43:57 by aromani          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -76,8 +76,3 @@ char	*ft_itoa(int nbr)
 	ptr[count + sig] = '\0';
 	return (ptr);
 }
-
-// int main()
-// {
-//     printf("%s",ft_itoa(2147483647));
-// }

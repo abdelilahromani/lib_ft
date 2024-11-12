@@ -6,7 +6,7 @@
 /*   By: aromani <aromani@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/22 11:19:33 by aromani           #+#    #+#             */
-/*   Updated: 2024/11/06 21:50:18 by aromani          ###   ########.fr       */
+/*   Updated: 2024/11/12 22:46:49 by aromani          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,13 +16,5 @@ int	ft_toupper(int c)
 {
 	if (c >= 'a' && c <= 'z')
 		return (c - 32);
-	else
-		return (c);
+	return (c);
 }
-
-// int main()
-// {
-// 	int i = 97;
-// 	printf("%d \n",toupper(i));
-// 	printf("%d",ft_toupper(i));
-// }

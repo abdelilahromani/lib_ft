@@ -6,7 +6,7 @@
 /*   By: aromani <aromani@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/26 19:48:56 by aromani           #+#    #+#             */
-/*   Updated: 2024/11/11 18:20:56 by aromani          ###   ########.fr       */
+/*   Updated: 2024/11/12 22:46:28 by aromani          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,8 +21,6 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 
 	ph = (const char *)haystack;
 	pn = (const char *)needle;
-	if (!(ph) || len == 0)
-		return (NULL);
 	if (!(pn[0]))
 		return ((char *)ph);
 	i = 0;
@@ -38,14 +36,4 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 		i++;
 	}
 	return (NULL);
-}
-#include <libc.h>
-int main()
-{
-    // char str[50] = "hi thm usthering whatsapp";
-    // char to_find[20] = "thm";
-
-    printf("%s \n",ft_strnstr(NULL, NULL, 0));
-    // printf("%s",strnstr(str,to_find,6));
-
 }

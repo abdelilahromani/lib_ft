@@ -6,7 +6,7 @@
 /*   By: aromani <aromani@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/05 18:28:19 by aromani           #+#    #+#             */
-/*   Updated: 2024/11/06 21:31:42 by aromani          ###   ########.fr       */
+/*   Updated: 2024/11/12 22:45:23 by aromani          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,10 +14,7 @@
 
 void	ft_putchar_fd(char c, int fd)
 {
+	if (fd < 0)
+		return ;
 	write (fd, &c, 1);
 }
-
-// int main()
-// {
-//     ft_putchar_fd('c',0);
-// }

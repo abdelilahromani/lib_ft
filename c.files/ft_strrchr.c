@@ -6,7 +6,7 @@
 /*   By: aromani <aromani@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/26 10:25:22 by aromani           #+#    #+#             */
-/*   Updated: 2024/11/06 22:04:16 by aromani          ###   ########.fr       */
+/*   Updated: 2024/11/12 22:46:33 by aromani          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,11 +29,3 @@ char	*ft_strrchr(const char *s, int c)
 	}
 	return (NULL);
 }
-
-// int main()
-// {
-//     char s[50] = "mbdooohssine";
-
-//     printf("%s  \n",ft_strrchr(s,'m'));
-//     printf("%s",strrchr(s,'m'));
-// }

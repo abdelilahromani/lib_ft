@@ -6,7 +6,7 @@
 /*   By: aromani <aromani@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/05 19:44:16 by aromani           #+#    #+#             */
-/*   Updated: 2024/11/06 21:35:36 by aromani          ###   ########.fr       */
+/*   Updated: 2024/11/12 20:56:21 by aromani          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,8 @@
 
 void	ft_putnbr_fd(int n, int fd)
 {
+	if (fd < 0)
+		return ;
 	if (n == -2147483648)
 	{
 		ft_putchar_fd ('-', fd);

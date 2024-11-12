@@ -6,7 +6,7 @@
 /*   By: aromani <aromani@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/05 19:41:36 by aromani           #+#    #+#             */
-/*   Updated: 2024/11/06 21:33:11 by aromani          ###   ########.fr       */
+/*   Updated: 2024/11/12 20:54:05 by aromani          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,8 @@
 
 void	ft_putendl_fd(char *s, int fd)
 {
+	if (!s || fd < 0)
+		return ;
 	ft_putstr_fd (s, fd);
 	ft_putchar_fd ('\n', fd);
 }

@@ -6,7 +6,7 @@
 /*   By: aromani <aromani@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/02 10:48:32 by aromani           #+#    #+#             */
-/*   Updated: 2024/11/11 15:46:47 by aromani          ###   ########.fr       */
+/*   Updated: 2024/11/12 22:45:37 by aromani          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -101,11 +101,3 @@ char	**ft_split(char const *s, char c)
 	ptr = filler(ptr, s, c, count);
 	return (ptr);
 }
-
-// int main()
-// {
-//     char **p = ft_split("gegyfuy2fgu2gyf*    ************* lhgiuhg fiugfiguf**foh2fohofih*fo2hfiou2hfg*",'*');
-//     int i = 0;
-//     while (p[i])
-//         printf("%s \n",p[i++]);
-// }

@@ -6,7 +6,7 @@
 /*   By: aromani <aromani@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/23 14:21:21 by aromani           #+#    #+#             */
-/*   Updated: 2024/11/11 15:42:24 by aromani          ###   ########.fr       */
+/*   Updated: 2024/11/12 22:45:14 by aromani          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,27 +38,3 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 	}
 	return (d);
 }
-
-// #include <stdlib.h>
-// int main()
-// {
-// 	char str[20] = "abcdassss\0";
-// 	char st[20] = "abcdassss\0";
-// 	ft_memmove(str + 6, str, 10);
-// 	memmove(st + 6, st, 10);
-// 	/*int i = 0;
-// 	while (str[i])
-// 	{
-// 		write(1, &str[i], 1);
-// 		i++;
-// 	}
-// 	write(1,"\n",1);*/
-// 	printf("str :%s\n", str);
-// 	printf("st :%s", st);
-// 	/*int j = 0;
-// 	while(st[j])
-// 	{
-// 		write(1,&st[j],1);
-// 		j++;
-// 	}*/
-// }

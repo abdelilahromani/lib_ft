@@ -6,7 +6,7 @@
 /*   By: aromani <aromani@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/22 11:16:20 by aromani           #+#    #+#             */
-/*   Updated: 2024/11/06 21:15:47 by aromani          ###   ########.fr       */
+/*   Updated: 2024/11/12 22:43:33 by aromani          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,12 +17,6 @@ int	ft_isalnum(int c)
 	if ((c >= '0' && c <= '9') || (c >= 'a' && c <= 'z')
 		|| (c >= 'A' && c <= 'Z'))
 		return (1);
-	else
-		return (0);
+	return (0);
 }
 
-// int main()
-// {
-// 	printf("%d",isalnum(0));
-// 	printf("%d",ft_isalnum(0));
-// }
