@@ -6,7 +6,7 @@
 /*   By: aromani <aromani@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/09 15:49:55 by aromani           #+#    #+#             */
-/*   Updated: 2024/11/12 22:44:45 by aromani          ###   ########.fr       */
+/*   Updated: 2024/11/13 10:53:43 by aromani          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 {
 	t_list	*l;
 	t_list	*node;
-	t_list *tmp;
+	t_list	*tmp;
 
 	if (!lst || !del || !f)
 		return (NULL);

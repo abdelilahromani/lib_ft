@@ -6,7 +6,7 @@
 /*   By: aromani <aromani@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/26 19:48:56 by aromani           #+#    #+#             */
-/*   Updated: 2024/11/12 22:46:28 by aromani          ###   ########.fr       */
+/*   Updated: 2024/11/13 10:54:37 by aromani          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,8 +16,8 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 {
 	const char	*ph;
 	const char	*pn;
-	size_t	i;
-	size_t	j;
+	size_t		i;
+	size_t		j;
 
 	ph = (const char *)haystack;
 	pn = (const char *)needle;

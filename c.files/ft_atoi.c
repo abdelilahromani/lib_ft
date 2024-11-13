@@ -6,7 +6,7 @@
 /*   By: aromani <aromani@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/26 12:20:03 by aromani           #+#    #+#             */
-/*   Updated: 2024/11/12 22:51:58 by aromani          ###   ########.fr       */
+/*   Updated: 2024/11/13 10:53:30 by aromani          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,10 +15,10 @@
 static int	checker(long n, int sig, char c)
 {
 	if ((n > 922337203685477580
-		||(n == 922337203685477580 && c > 7)) && sig == 1)
+			|| (n == 922337203685477580 && c > 7)) && sig == 1)
 		return (-1);
 	if ((n > 922337203685477580
-		|| (n == 922337203685477580 && c > 7)) && sig == -1)
+			|| (n == 922337203685477580 && c > 7)) && sig == -1)
 		return (0);
 	return (1);
 }
@@ -44,7 +44,7 @@ int	ft_atoi(const char *str)
 	{
 		num = (num * 10) + str[i] - 48;
 		i++;
-		if (checker(num, sig,str[i]) != 1)
+		if (checker(num, sig, str[i]) != 1)
 			return (checker(num, sig, str[i]));
 	}
 	return ((int)(num * sig));
